@@ -1,0 +1,16 @@
+# Plugin Configuration
+
+name: MobSpawningRate
+version: 1.0.0
+main: com.waterjuicy.mobspawningrate.MobSpawningRate
+api-version: 1.16
+
+# Configuration Options
+options:
+  enable-advanced-config: false
+
+# Commands
+commands:
+  spawnmob:
+    description: Spawn a specific mob
+    usage: /spawnmob <mobType>
